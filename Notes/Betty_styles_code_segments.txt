@@ -1,0 +1,125 @@
+example 1
+
+printf("I am checking for Betty style \n"); printf("Oops! Betty says I have some errors /n");
+
+example 2
+
+printf("I am checking for Betty style \n"); 
+printf("Bravo! You passed my test. /n");
+
+example 3
+
+int main(void)
+{
+     printf("Here is your block of code \n");
+     printf("Can you see how I have been indented \n");
+}
+
+example 4
+
+{
+     printf("Here is your block of code \n");
+     printf("Can you see how I have been indented \n");
+
+     if (true)
+     {
+           printf("I passed Betty test \n");
+     }
+}
+
+
+example 5
+
+int main(void)
+{
+    int var;
+
+    var = 0;
+    switch (suffix)
+    {
+    case 'g':
+        var = 30;
+        break;
+    case 'm':
+        var = 20;
+        break;
+    case 'k':
+        var = 10;
+    default:
+        break;
+    }
+    return (0);
+}
+
+
+example 6
+
+if (condition)
+{
+      // Your code goes here
+}
+else if (another condition)
+{
+      // Your code goes here
+}
+else
+{
+      // Your code goes here
+}
+
+
+example 7
+
+    int function(int x)
+    {
+        body of function
+    }
+
+
+example 8
+
+    if (condition)
+        do_this();
+    else
+        do_that();
+
+example 9
+
+    if (condition)
+    {
+        do_this();
+        do_that();
+    }
+    else
+    {
+        otherwise();
+    }
+
+
+example 10
+
+    do {
+        body of the loop
+    } while (condition);
+
+
+example 11
+
+    s = sizeof( struct file );
+
+
+example 12
+
+    s = sizeof(struct file);
+
+example 13
+
+    =  +  -  <  >  *  /  %  |  &  ^  <=  >=  ==  !=  ?  :
+
+
+example 14
+
+    &  *  +  -  ~  !  sizeof  typeof  alignof  __attribute__  defined ++ --
+
+
+
