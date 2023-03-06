@@ -1,0 +1,1 @@
+This is a folder containing the manual pages in text that have been referenced in the progects I have done in the alx se course.

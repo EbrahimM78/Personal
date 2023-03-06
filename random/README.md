@@ -1,0 +1,1 @@
+This folder contains random bits of code that I have written/written with external help, which have orignally stemmed from a random idea. But due to my current lacking knowledge (at the time of writting 03 Mar 2023), I am unable to use it. Hence "storage" here. 

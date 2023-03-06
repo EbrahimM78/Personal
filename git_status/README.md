@@ -1,0 +1,1 @@
+This folder was created as a output folder for during the creation and testing of a Git "git commit and git push" script.
