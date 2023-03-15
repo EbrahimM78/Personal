@@ -1,4 +1,26 @@
 #!/bin/bash
+
+# set initial log file number
+count=0
+
+# loop to find the next available log file number
+while [ -f /var/log/log_$(printf "%02d" $count).txt ]
+do
+    ((count++))
+done
+
+# set the log file name 
+log_file="/home/vagrant/Personal/git_status/log_$(printf "%02d" $count).txt"
+
+# redirect script output to log file
+exec &> $log_file
+
+# add your existing script commands here: Git Commit
+echo "Starting script to push files to GitHub..."
+cd /home/vagrant/Personal 
 git add .
-git commit -m 'commit'
-git push
+git commit -m "Automatic commit from script"
+git push origin master
+echo "Finished script."
+
+# end of script
