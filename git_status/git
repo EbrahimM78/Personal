@@ -1,2 +1,0 @@
-#!/bin/bash
-git commit --long >>/home/vagrant/Personal/git_status/git_log.txt

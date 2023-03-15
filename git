@@ -19,7 +19,7 @@ exec &> $log_file
 echo "Starting script to push files to GitHub..."
 git add .
 git commit -m "Automatic commit from script"
-git push origin master
+git push origin main
 echo "Finished script."
 
 # end of script
