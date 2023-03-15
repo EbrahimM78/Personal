@@ -17,7 +17,6 @@ exec &> $log_file
 
 # add your existing script commands here: Git Commit
 echo "Starting script to push files to GitHub..."
-cd /home/vagrant/Personal 
 git add .
 git commit -m "Automatic commit from script"
 git push origin master
